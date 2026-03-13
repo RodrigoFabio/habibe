@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Habibe Esfiharia — Tradição Árabe com Sabor Autêntico</title>
+  <meta name="description" content="A Habibe Esfiharia traz a autêntica culinária árabe com esfihas artesanais, kibes frescos e beirutes especiais. Peça delivery ou visite nossas unidades." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ============ FLOATING NAVBAR ============ -->
+  <div class="fixed-navbar">
+    <nav class="navbar">
+      <div class="nav-menu">
+        <a href="index.html" class="link-nav active">Home</a>
+        <a href="cardapio.html" class="link-nav">Cardápio</a>
+        <a href="sobre-nos.html" class="link-nav">Sobre Nós</a>
+        <a href="contato.html" class="link-nav">Contato</a>
+        <a href="localizacoes.html" class="link-nav">Localizações</a>
+        <a href="delivery.html" class="cta-nav">Delivery</a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Abrir menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </div>
+
+  <!-- Mobile Nav -->
+  <div class="mobile-nav" id="mobileNav">
+    <a href="index.html" class="link-nav active">Home</a>
+    <a href="cardapio.html" class="link-nav">Cardápio</a>
+    <a href="sobre-nos.html" class="link-nav">Sobre Nós</a>
+    <a href="contato.html" class="link-nav">Contato</a>
+    <a href="localizacoes.html" class="link-nav">Localizações</a>
+    <a href="delivery.html" class="cta-nav">Delivery</a>
+  </div>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-top fade-in">
+        <p class="hero-tagline">
+          Experimente a variedade de sabores que só a Habibe oferece, com entrega rápida e atendimento de qualidade!
+        </p>
+        <div class="hero-hours">
+          <p>Segunda – Sábado</p>
+          <p>12:00 – 23:00</p>
+          <p>Domingo</p>
+          <p>12:00 – 21:00</p>
+        </div>
+      </div>
+
+      <div class="hero-logo-wrap fade-in">
+        <div class="hero-decorative">
+          <div class="hero-line"></div>
+          <div class="hero-diamond"></div>
+          <div class="hero-diamond"></div>
+          <div class="hero-diamond"></div>
+          <div class="hero-line"></div>
+        </div>
+        <div class="hero-logo-text">Habibe</div>
+        <p class="hero-logo-subtitle">Esfiharia</p>
+        <div class="hero-line-bottom"></div>
+      </div>
+
+      <div class="hero-gallery fade-in">
+        <img
+          src="https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=500&h=600&fit=crop&q=80"
+          alt="Esfihas artesanais da Habibe"
+          class="hero-gallery-img"
+          loading="lazy"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=900&h=600&fit=crop&q=80"
+          alt="Ambiente acolhedor da Habibe Esfiharia"
+          class="hero-gallery-img-tall"
+          loading="lazy"
+        />
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ QUICK INFO CARDS ============ -->
+  <section class="quick-info section">
+    <div class="container">
+      <h2 class="quick-info-title fade-in">Esfihas feitas com ingredientes selecionados</h2>
+
+      <div class="grid-quick-info">
+        <!-- Card 1: Localizações -->
+        <div class="info-card fade-in">
+          <svg class="info-card-icon" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M36 6C24.954 6 16 14.954 16 26C16 40.5 36 66 36 66C36 66 56 40.5 56 26C56 14.954 47.046 6 36 6ZM36 34C31.582 34 28 30.418 28 26C28 21.582 31.582 18 36 18C40.418 18 44 21.582 44 26C44 30.418 40.418 34 36 34Z" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <h3>Nossas Localizações</h3>
+          <p>Com unidades estratégicas espalhadas pela cidade, estamos pertinho de onde você está. Fácil de encontrar, difícil de resistir!</p>
+          <a href="localizacoes.html" class="link-underline">veja as localizações →</a>
+        </div>
+
+        <!-- Card 2: Tradição -->
+        <div class="info-card fade-in">
+          <svg class="info-card-icon" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M36 12L40.47 27.18H56.36L43.94 36.32L48.41 51.5L36 42.36L23.59 51.5L28.06 36.32L15.64 27.18H31.53L36 12Z" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M36 60C36 60 20 52 20 38" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+            <path d="M36 60C36 60 52 52 52 38" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+          </svg>
+          <h3>Tradição Árabe</h3>
+          <p>Damos as boas-vindas com o sabor da verdadeira culinária árabe. Receitas de família passadas de geração em geração com muito amor e carinho.</p>
+          <a href="sobre-nos.html" class="link-underline">sobre nós →</a>
+        </div>
+
+        <!-- Card 3: Cardápio -->
+        <div class="info-card fade-in">
+          <svg class="info-card-icon" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M24 8V40C24 44.418 27.582 48 32 48H40C44.418 48 48 44.418 48 40V8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            <path d="M36 8V32" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            <path d="M28 56C28 56 30 64 36 64C42 64 44 56 44 56" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            <path d="M36 48V56" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            <rect x="20" y="38" width="32" height="4" rx="2" fill="currentColor" opacity="0.2"/>
+          </svg>
+          <h3>Cardápio Especial</h3>
+          <p>Com massa artesanal e ingredientes sempre frescos, cada esfiha é preparada com carinho. Opções para todos os gostos e ocasiões.</p>
+          <a href="cardapio.html" class="link-underline">veja o cardápio →</a>
+        </div>
+      </div>
+
+      <!-- Delivery Banner -->
+      <div class="delivery-banner fade-in">
+        <div class="delivery-banner-text">
+          <h3>Cansado para sair e comer?</h3>
+          <p>Peça da sua casa! Entrega rápida e fresquinha direto para você.</p>
+        </div>
+        <div class="delivery-banner-actions">
+          <a href="https://wa.me/5511999999999" target="_blank" class="btn-light">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+            </svg>
+            WhatsApp
+          </a>
+          <a href="delivery.html" class="btn-light">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+            Ver opções
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FEATURES ============ -->
+  <section class="features">
+    <div class="container">
+      <div class="features-grid">
+        <img
+          src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=700&h=680&fit=crop&q=80"
+          alt="Ingredientes frescos usados na Habibe"
+          class="features-image fade-in"
+          loading="lazy"
+        />
+        <div class="features-content fade-in">
+          <h2>Feitas com ingredientes selecionados</h2>
+          <p>Explore a nossa variedade de esfihas, kibes, kafta e outras delícias da culinária árabe, feitas com ingredientes frescos e de alta qualidade. Cada mordida é uma experiência única.</p>
+
+          <ul class="checklist">
+            <li class="checklist-item">
+              <svg class="check-icon" viewBox="0 0 28 28" fill="none">
+                <circle cx="14" cy="14" r="13" stroke="currentColor" stroke-width="2"/>
+                <path d="M8 14l4 4 8-8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              Massa leve e artesanal
+            </li>
+            <li class="checklist-item">
+              <svg class="check-icon" viewBox="0 0 28 28" fill="none">
+                <circle cx="14" cy="14" r="13" stroke="currentColor" stroke-width="2"/>
+                <path d="M8 14l4 4 8-8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              Esfihas de forno e fritas
+            </li>
+            <li class="checklist-item">
+              <svg class="check-icon" viewBox="0 0 28 28" fill="none">
+                <circle cx="14" cy="14" r="13" stroke="currentColor" stroke-width="2"/>
+                <path d="M8 14l4 4 8-8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              Ingredientes sempre frescos
+            </li>
+            <li class="checklist-item">
+              <svg class="check-icon" viewBox="0 0 28 28" fill="none">
+                <circle cx="14" cy="14" r="13" stroke="currentColor" stroke-width="2"/>
+                <path d="M8 14l4 4 8-8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              Receitas tradicionais árabes
+            </li>
+          </ul>
+
+          <a href="cardapio.html" class="btn-primary">
+            Veja nosso cardápio
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CATEGORY PILLS ============ -->
+  <section class="categories">
+    <div class="container">
+      <h2 class="categories-title fade-in">O que você vai pedir hoje?</h2>
+    </div>
+    <div class="categories-grid">
+      <div class="categories-row">
+        <a href="cardapio.html#esfihas" class="pill-categoria pill-1 fade-in">
+          <span>Esfihas</span>
+          <span class="pill-arrow">→</span>
+        </a>
+        <a href="cardapio.html#kibes" class="pill-categoria pill-2 fade-in">
+          <span>Kibes</span>
+          <span class="pill-arrow">→</span>
+        </a>
+      </div>
+      <div class="categories-row">
+        <a href="cardapio.html#beirutes" class="pill-categoria pill-3 fade-in">
+          <span>Beirutes</span>
+          <span class="pill-arrow">→</span>
+        </a>
+        <a href="cardapio.html#kaftas" class="pill-categoria pill-4 fade-in">
+          <span>Kaftas</span>
+          <span class="pill-arrow">→</span>
+        </a>
+      </div>
+      <div class="categories-row">
+        <a href="cardapio.html#doces" class="pill-categoria pill-5 fade-in">
+          <span>Doces</span>
+          <span class="pill-arrow">→</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ LOCATIONS PREVIEW ============ -->
+  <section class="locations-preview section">
+    <div class="container">
+      <div class="locations-grid">
+        <div class="locations-content fade-in">
+          <h2>Unidades espalhadas pela cidade</h2>
+          <p class="subtitle">Confira nossas unidades!</p>
+          <p>Estamos estrategicamente localizados para que você nunca fique longe de uma boa esfiha. Venha nos visitar!</p>
+
+          <ul class="checklist">
+            <li class="checklist-item">
+              <svg class="check-icon" viewBox="0 0 28 28" fill="none">
+                <circle cx="14" cy="14" r="13" stroke="currentColor" stroke-width="2"/>
+                <path d="M8 14l4 4 8-8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              Atendimento no local e para viagem
+            </li>
+            <li class="checklist-item">
+              <svg class="check-icon" viewBox="0 0 28 28" fill="none">
+                <circle cx="14" cy="14" r="13" stroke="currentColor" stroke-width="2"/>
+                <path d="M8 14l4 4 8-8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              Ambientes iluminados e aconchegantes
+            </li>
+            <li class="checklist-item">
+              <svg class="check-icon" viewBox="0 0 28 28" fill="none">
+                <circle cx="14" cy="14" r="13" stroke="currentColor" stroke-width="2"/>
+                <path d="M8 14l4 4 8-8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              Unidades com Wi-Fi gratuito
+            </li>
+          </ul>
+
+          <a href="localizacoes.html" class="btn-primary">
+            Confira nossas localizações
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </a>
+        </div>
+
+        <img
+          src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=700&h=680&fit=crop&q=80"
+          alt="Interior de uma unidade da Habibe Esfiharia"
+          class="locations-image fade-in"
+          loading="lazy"
+        />
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FEEL THE VIBES ============ -->
+  <section class="feel-vibes">
+    <div class="container">
+      <div class="feel-vibes-header fade-in">
+        <h2>Feel the vibes</h2>
+        <p>Um ambiente que abraça você com calor, aromas e sabores que contam uma história de amor pela culinária árabe. Venha fazer parte da família Habibe!</p>
+      </div>
+    </div>
+    <div class="marquee-container">
+      <div class="marquee-track" id="marqueeTrack">
+        <img src="https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=520&h=520&fit=crop&q=80" alt="Esfihas Habibe" class="marquee-img" loading="lazy"/>
+        <img src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=520&h=520&fit=crop&q=80" alt="Esfihas frescas" class="marquee-img" loading="lazy"/>
+        <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=520&h=520&fit=crop&q=80" alt="Ambiente Habibe" class="marquee-img" loading="lazy"/>
+        <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=520&h=520&fit=crop&q=80" alt="Ingredientes frescos" class="marquee-img" loading="lazy"/>
+        <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=520&h=520&fit=crop&q=80" alt="Culinária árabe" class="marquee-img" loading="lazy"/>
+        <img src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=520&h=520&fit=crop&q=80" alt="Mesa farta" class="marquee-img" loading="lazy"/>
+        <!-- Duplicated for infinite loop -->
+        <img src="https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=520&h=520&fit=crop&q=80" alt="Esfihas Habibe" class="marquee-img" loading="lazy"/>
+        <img src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=520&h=520&fit=crop&q=80" alt="Esfihas frescas" class="marquee-img" loading="lazy"/>
+        <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=520&h=520&fit=crop&q=80" alt="Ambiente Habibe" class="marquee-img" loading="lazy"/>
+        <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=520&h=520&fit=crop&q=80" alt="Ingredientes frescos" class="marquee-img" loading="lazy"/>
+        <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=520&h=520&fit=crop&q=80" alt="Culinária árabe" class="marquee-img" loading="lazy"/>
+        <img src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=520&h=520&fit=crop&q=80" alt="Mesa farta" class="marquee-img" loading="lazy"/>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MOVING TEXT LINES ============ -->
+  <div class="moving-lines">
+    <div class="moving-line-wrap">
+      <div class="single-moving-line">
+        <div class="moving-line-inner line-move-left">
+          <span class="moving-line-text">Tradição Árabe</span>
+          <span class="moving-line-sep"></span>
+          <span class="moving-line-text">Sabor Autêntico</span>
+          <span class="moving-line-sep"></span>
+          <span class="moving-line-text">Receita Familiar</span>
+          <span class="moving-line-sep"></span>
+          <span class="moving-line-text">Feitas com Amor</span>
+          <span class="moving-line-sep"></span>
+          <span class="moving-line-text">Tradição Árabe</span>
+          <span class="moving-line-sep"></span>
+          <span class="moving-line-text">Sabor Autêntico</span>
+          <span class="moving-line-sep"></span>
+          <span class="moving-line-text">Receita Familiar</span>
+          <span class="moving-line-sep"></span>
+          <span class="moving-line-text">Feitas com Amor</span>
+          <span class="moving-line-sep"></span>
+        </div>
+      </div>
+    </div>
+    <div class="moving-line-wrap">
+      <div class="single-moving-line">
+        <div class="moving-line-inner line-move-right">
+          <span class="moving-line-text">Esfihas Artesanais</span>
+          <span class="moving-line-sep"></span>
+          <span class="moving-line-text">Kibes Frescos</span>
+          <span class="moving-line-sep"></span>
+          <span class="moving-line-text">Beirutes Especiais</span>
+          <span class="moving-line-sep"></span>
+          <span class="moving-line-text">Habibe ✦</span>
+          <span class="moving-line-sep"></span>
+          <span class="moving-line-text">Esfihas Artesanais</span>
+          <span class="moving-line-sep"></span>
+          <span class="moving-line-text">Kibes Frescos</span>
+          <span class="moving-line-sep"></span>
+          <span class="moving-line-text">Beirutes Especiais</span>
+          <span class="moving-line-sep"></span>
+          <span class="moving-line-text">Habibe ✦</span>
+          <span class="moving-line-sep"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ TESTIMONIALS ============ -->
+  <section class="testimonials section">
+    <div class="container">
+      <h2 class="testimonials-title fade-in">Veja o que falam da gente!</h2>
+      <div class="grid-testimonials">
+        <div class="testimonial-card fade-in">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">"A melhor esfiha que já comi na vida! A massa é levinha, o recheio é generoso e saboroso demais. Não consigo deixar de pedir toda semana. A Habibe conquistou meu coração!"</p>
+          <span class="testimonial-author">— Maria Fernanda S.</span>
+        </div>
+        <div class="testimonial-card fade-in">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">"Atendimento impecável e esfihas que remetem à culinária árabe de verdade. O kibe frito então... perfeito! Ambiente super aconchegante, perfeito para a família."</p>
+          <span class="testimonial-author">— Carlos Alberto M.</span>
+        </div>
+        <div class="testimonial-card fade-in">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">"Pedi delivery e chegou quentinho e no prazo. As esfihas de queijo com tomate são incríveis. Preço justo, porção generosa. Com certeza vou pedir de novo!"</p>
+          <span class="testimonial-author">— Juliana Costa</span>
+        </div>
+        <div class="testimonial-card fade-in">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">"Tradição árabe de verdade! Já testei várias esfiharias mas a Habibe tem um sabor que é único. O beirute especial é de outro nível. Parabéns pela qualidade!"</p>
+          <span class="testimonial-author">— Ricardo Nunes</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <div class="footer-logo">Habibe</div>
+          <div class="footer-logo-sub">Esfiharia</div>
+        </div>
+        <div class="footer-hours">
+          <p>Segunda a Sábado: 12h – 23h</p>
+          <p>Domingo: 12h – 21h</p>
+          <p>Delivery disponível</p>
+        </div>
+      </div>
+
+      <p class="footer-tagline">
+        Mais de uma geração oferecendo o que há de melhor na culinária árabe. Feito com amor, servido com orgulho.
+      </p>
+
+      <hr class="footer-divider" />
+
+      <div class="footer-bottom">
+        <nav class="footer-nav">
+          <a href="cardapio.html">Cardápio</a>
+          <a href="localizacoes.html">Localizações</a>
+          <a href="sobre-nos.html">Sobre Nós</a>
+          <a href="contato.html">Fale conosco</a>
+          <a href="delivery.html">Delivery</a>
+        </nav>
+        <div class="footer-social">
+          <!-- Instagram -->
+          <a href="#" aria-label="Instagram da Habibe">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+              <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+            </svg>
+          </a>
+          <!-- WhatsApp -->
+          <a href="https://wa.me/5511999999999" aria-label="WhatsApp da Habibe">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <p class="footer-copy">Habibe Esfiharia <span id="footerYear"></span> · Todos os direitos reservados</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
